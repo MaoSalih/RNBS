@@ -1,0 +1,26 @@
+{
+  "name": "rnbs-coin",
+  "version": "1.0.0",
+  "description": "A stateless, node-free decentralized coin system based on the concept of Rolling Network-Based Storage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "simulate": "node large-simulation.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "stateless",
+    "decentralized",
+    "bloom-filter",
+    "reputation",
+    "witness-quorum"
+  ],
+  "author": "Salih Maoui",
+  "license": "MIT",
+  "dependencies": {
+    "bloom-filters": "^3.0.0",
+    "crypto": "^1.0.1",
+    "uuid": "^9.0.1"
+  }
+} 
